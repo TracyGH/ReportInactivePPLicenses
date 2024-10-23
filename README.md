@@ -22,7 +22,7 @@ Use this Power Automate flow to identify M365 accounts with inactive Power Platf
 
 #### 6. Save the flow and voila! You've got an HTML formatted table ready that's ready for delivery via an email, Teams channel chat, or whatever! The table includes the Email and User Id values for any M365 accounts identified as being inactive. 
 
-## <a name="getLicenseSKU">Service Plan SKUs</a>
+## Service Plan SKUs
 | License Type | Commercial Tenant SKU | GCC Tenant SKU |
 | --- | --- | --- |
 | Power Automate (per user) Premium | eda1941c-3c4f-4995-b5eb-e85a42175ab9 | d3987516-4b53-4dc0-8335-411260bf5626 |
