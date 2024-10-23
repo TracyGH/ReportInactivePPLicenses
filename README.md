@@ -31,6 +31,6 @@ Use this Power Automate flow to identify M365 accounts with inactive Power Platf
 > [!NOTE]
 > + The service plans and SKUs may periodically change. The latest can be found [here](https://learn.microsoft.com/en-us/entra/identity/users/licensing-service-plan-reference) and [here](https://download.microsoft.com/download/e/3/e/e3e9faf2-f28b-490a-9ada-c6089a1fc5b0/Product%20names%20and%20service%20plan%20identifiers%20for%20licensing.csv).
 > + An "Inactive" license is determined by Microsoft and reflects no activity within the last 30 days. 
-> + This flow will only report inactive Power Automate Premium licenses, not inactive Power Automate per user with attended RPS license. See [here](https://learn.microsoft.com/en-us/power-platform/admin/power-automate-licensing/faqs#how-is-power-automate-premium-license-different-from-power-automate-per-user-with-attended-rpa-license) for additional details.
+> + This flow will only report inactive Power Automate Premium licenses, not inactive Power Automate per user with attended RPS licenses. See [here](https://learn.microsoft.com/en-us/power-platform/admin/power-automate-licensing/faqs#how-is-power-automate-premium-license-different-from-power-automate-per-user-with-attended-rpa-license) for the difference.
 
 
