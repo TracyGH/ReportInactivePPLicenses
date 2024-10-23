@@ -1,7 +1,5 @@
 # Report Inactive Power Platform Premium (user) Licenses
-Power Automate flow for Reporting Inactive** Premium/Per-User Power Platform Licenses
-
-### Become your organization's hero 🦸 by saving them some $$$ 💵 in Microsoft licensing fees!
+Use this Power Automate flow report to identify M365 accounts with inactive Power Platform premium user licenses and become your organization's hero 🦸 by saving them some $$$ 💵 in Microsoft licensing fees!
 
 #### 1. Download the _InactivePremiumPowerAutomateLicenses_20241022192410.zip_ file and import as Legacy Power Automate flow package.
 
@@ -19,7 +17,7 @@ Power Automate flow for Reporting Inactive** Premium/Per-User Power Platform Lic
 #### 4. Once imported, edit the _Get Active Power Automate Premium Users_ action and update the Url with your respective Tenant Id.
 <kbd>![image](https://github.com/user-attachments/assets/64349b18-dc73-4ed0-b2ae-cb0140fa624d)</kbd>
 
-#### 5. Next, edit the Get All Power Automate Premium Users action and update the Url with [your respective license SKU](#getLicenseSKU).
+#### 5. Next, edit the Get All Power Automate Premium Users action and update the Url with your respective license SKU (see table below).
 <kbd>![image](https://github.com/user-attachments/assets/6e77d652-c76e-4cc7-a1ac-e504b32fd142)</kbd>
 
 
@@ -27,7 +25,7 @@ Power Automate flow for Reporting Inactive** Premium/Per-User Power Platform Lic
 
 
 
-<a name="getLicenseSKU"></a>
+## <a name="getLicenseSKU">Service Plan SKUs</a>
 | License Type | Commercial Tenant SKU | GCC Tenant SKU |
 | --- | --- | --- |
 | Power Automate (per user) Premium | eda1941c-3c4f-4995-b5eb-e85a42175ab9 | d3987516-4b53-4dc0-8335-411260bf5626 |
