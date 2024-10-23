@@ -6,7 +6,7 @@ Use this Power Automate flow to identify M365 accounts with inactive Power Platf
 <kbd> ![image](https://github.com/user-attachments/assets/c09b3f6e-b2da-472b-8adc-ce4fc81634a9) </kbd>
 #### 2. For the first connection resource, create a new HTTP with Microsoft Entra ID (preauthorized) connection and set the Base URL and Resource URI to `https://licensing.powerplatform.microsoft.com`
 > [!NOTE]
-> + This connection will require an account with the Power Platform/Apps Admin role. 
+> + This connection will require an account with the Power Platform/Apps Admin role and Premium licensing.
 > + GCC tenants will use `https://gov.licensing.powerplatform.microsoft.us`
 
 <kbd>![image](https://github.com/user-attachments/assets/00b94e6f-ae29-4194-b721-c91eb3563924)</kbd>
@@ -37,3 +37,4 @@ Use this Power Automate flow to identify M365 accounts with inactive Power Platf
 > + The service plans and SKUs may periodically change. The latest can be found [here](https://learn.microsoft.com/en-us/entra/identity/users/licensing-service-plan-reference) and [here](https://download.microsoft.com/download/e/3/e/e3e9faf2-f28b-490a-9ada-c6089a1fc5b0/Product%20names%20and%20service%20plan%20identifiers%20for%20licensing.csv).
 > + An "Inactive" license is determined by Microsoft and reflects no activity within the last 30 days. 
 > + This flow will only report inactive Power Automate Premium licenses, not inactive Power Automate per user with attended RPS licenses. See [here](https://learn.microsoft.com/en-us/power-platform/admin/power-automate-licensing/faqs#how-is-power-automate-premium-license-different-from-power-automate-per-user-with-attended-rpa-license) for the difference.
+> + This flow uses Premium actions
