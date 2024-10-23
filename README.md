@@ -1,5 +1,5 @@
 # Report Inactive Power Platform Premium (user) Licenses
-Use this Power Automate flow to identify M365 accounts with inactive Power Platform premium user licenses and become your organization's hero 🦸 by saving them some $$$ 💵 in Microsoft licensing fees!
+Use this Power Automate flow to identify M365 accounts with inactive Power Platform premium user licenses and become your organization's hero by saving them some $$$ in Microsoft licensing fees!
 
 #### 1. Download the _InactivePremiumPowerAutomateLicenses_20241022192410.zip_ file and import as a legacy Power Automate flow package.
 
