@@ -30,10 +30,7 @@ Use this Power Automate flow to identify M365 accounts with inactive Power Platf
 | Power Apps (per user) Premium | b30411f5-fea1-4a59-9ad9-3db7c7ead579 | 8e4c6baa-f2ff-4884-9c38-93785d0d7ba1 |
 
 > [!NOTE]
+> + To report inactive Power Apps premium licenses, copy this flow and replace the _Get Active Power Automate Premium Users_ action Url with the following `https://licensing.powerplatform.microsoft.com/v1.0/tenants/[TENANT ID]/ManagedEnvironment/PowerApps/GetUslLicenseDetails`. Then, replace the license SKU of the _Get All Power Automate Premium Users_ action Url with the relevant value above. 
 > + The service plans and SKUs may periodically change. The latest can be found [here](https://learn.microsoft.com/en-us/entra/identity/users/licensing-service-plan-reference) and [here](https://download.microsoft.com/download/e/3/e/e3e9faf2-f28b-490a-9ada-c6089a1fc5b0/Product%20names%20and%20service%20plan%20identifiers%20for%20licensing.csv).
-> + Flows will require an account with 
 > + An "Inactive" license is determined by Microsoft and reflects no activity within the last 30 days. 
 > + This flow will only report inactive Power Automate Premium licenses, not inactive Power Automate per user with attended RPS licenses. See [here](https://learn.microsoft.com/en-us/power-platform/admin/power-automate-licensing/faqs#how-is-power-automate-premium-license-different-from-power-automate-per-user-with-attended-rpa-license) for the difference.
-> + Copy this flow and modify it to report inactive Power Apps Premium licenses. Replace the _Get Active Power Automate Premium Users_ action Url with the following `https://licensing.powerplatform.microsoft.com/v1.0/tenants/[TENANT ID]/ManagedEnvironment/PowerApps/GetUslLicenseDetails` and replace the license SKU of the _Get All Power Automate Premium Users_ action Url with the relevant value above. 
-
-
