@@ -1,5 +1,5 @@
 # Report Inactive Power Platform Premium (user) Licenses
-Use this Power Automate flow report to identify M365 accounts with inactive Power Platform premium user licenses and become your organization's hero 🦸 by saving them some $$$ 💵 in Microsoft licensing fees!
+Use this Power Automate flow to identify M365 accounts with inactive Power Platform premium user licenses and become your organization's hero 🦸 by saving them some $$$ 💵 in Microsoft licensing fees!
 
 #### 1. Download the _InactivePremiumPowerAutomateLicenses_20241022192410.zip_ file and import as Legacy Power Automate flow package.
 
@@ -20,10 +20,7 @@ Use this Power Automate flow report to identify M365 accounts with inactive Powe
 #### 5. Next, edit the Get All Power Automate Premium Users action and update the Url with your respective license SKU (see table below).
 <kbd>![image](https://github.com/user-attachments/assets/6e77d652-c76e-4cc7-a1ac-e504b32fd142)</kbd>
 
-
-
-
-
+#### 6. Save and voila! You've got an HTML formatted table ready for an email, Teams channel, or whatever! The table includes the Email and User Id values for any M365 accounts identified as being inactive. 
 
 ## <a name="getLicenseSKU">Service Plan SKUs</a>
 | License Type | Commercial Tenant SKU | GCC Tenant SKU |
@@ -32,10 +29,9 @@ Use this Power Automate flow report to identify M365 accounts with inactive Powe
 | Power Apps (per user) Premium | b30411f5-fea1-4a59-9ad9-3db7c7ead579 | 8e4c6baa-f2ff-4884-9c38-93785d0d7ba1 |
 
 > [!NOTE]
-> These values may periodically change and the latest can be found [here](https://learn.microsoft.com/en-us/entra/identity/users/licensing-service-plan-reference) and [here](https://download.microsoft.com/download/e/3/e/e3e9faf2-f28b-490a-9ada-c6089a1fc5b0/Product%20names%20and%20service%20plan%20identifiers%20for%20licensing.csv).
-
-> [!NOTE]
-> This flow will only report inactive** [Power Automate Premium licenses, not inactive** Power Automate per user with attended RPS license](https://learn.microsoft.com/en-us/power-platform/admin/power-automate-licensing/faqs#how-is-power-automate-premium-license-different-from-power-automate-per-user-with-attended-rpa-license). 
+> + The service plans and SKUs may periodically change. The latest can be found [here](https://learn.microsoft.com/en-us/entra/identity/users/licensing-service-plan-reference) and [here](https://download.microsoft.com/download/e/3/e/e3e9faf2-f28b-490a-9ada-c6089a1fc5b0/Product%20names%20and%20service%20plan%20identifiers%20for%20licensing.csv).
+> + This flow will only report inactive** [Power Automate Premium licenses, not inactive** Power Automate per user with attended RPS license](https://learn.microsoft.com/en-us/power-platform/admin/power-automate-licensing/faqs#how-is-power-automate-premium-license-different-from-power-automate-per-user-with-attended-rpa-license).
+> + An "Inactive" license is determined by Microsoft and reflects no activity within the last 30 days. 
 
 
 
