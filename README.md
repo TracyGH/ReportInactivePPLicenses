@@ -1,7 +1,7 @@
 # Report Inactive Power Platform Premium (user) Licenses
 Use this Power Automate flow to identify M365 accounts with inactive Power Platform premium user licenses and become your organization's hero 🦸 by saving them some $$$ 💵 in Microsoft licensing fees!
 
-#### 1. Download the _InactivePremiumPowerAutomateLicenses_20241022192410.zip_ file and import as Legacy Power Automate flow package.
+#### 1. Download the _InactivePremiumPowerAutomateLicenses_20241022192410.zip_ file and import as a legacy Power Automate flow package.
 
 <kbd> ![image](https://github.com/user-attachments/assets/c09b3f6e-b2da-472b-8adc-ce4fc81634a9) </kbd>
 #### 2. For the first connection resource, create a new HTTP with Microsoft Entra ID (preauthorized) connection and set the Base URL and Resource URI to `https://licensing.powerplatform.microsoft.com`
@@ -12,15 +12,15 @@ Use this Power Automate flow to identify M365 accounts with inactive Power Platf
 
 <kbd>![image](https://github.com/user-attachments/assets/89533526-1ddc-4c26-8f00-796c5f177341)</kbd>
 
-#### 3. Repeat for the second connection resource setting the Base URL and Resource URI to `https://graph.microsoft.com`
+#### 3. Repeat for the second connection resource. But this time set the Base URL and Resource URI to `https://graph.microsoft.com`
 
-#### 4. Once imported, edit the _Get Active Power Automate Premium Users_ action and update the Url with your respective Tenant Id.
+#### 4. Once the flow is imported, edit the _Get Active Power Automate Premium Users_ action and update the Url with your respective Tenant Id.
 <kbd>![image](https://github.com/user-attachments/assets/64349b18-dc73-4ed0-b2ae-cb0140fa624d)</kbd>
 
-#### 5. Next, edit the Get All Power Automate Premium Users action and update the Url with your respective license SKU (see table below).
+#### 5. Next, edit the _Get All Power Automate Premium Users_ action and update the Url with your respective license SKU (see table below).
 <kbd>![image](https://github.com/user-attachments/assets/6e77d652-c76e-4cc7-a1ac-e504b32fd142)</kbd>
 
-#### 6. Save and voila! You've got an HTML formatted table ready for an email, Teams channel, or whatever! The table includes the Email and User Id values for any M365 accounts identified as being inactive. 
+#### 6. Save the flow and voila! You've got an HTML formatted table ready that's ready for delivery via an email, Teams channel chat, or whatever! The table includes the Email and User Id values for any M365 accounts identified as being inactive. 
 
 ## <a name="getLicenseSKU">Service Plan SKUs</a>
 | License Type | Commercial Tenant SKU | GCC Tenant SKU |
