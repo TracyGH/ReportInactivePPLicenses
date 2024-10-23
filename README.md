@@ -21,7 +21,7 @@ Use this Power Automate flow to identify M365 accounts with inactive Power Platf
 #### 5. Next, edit the _Get All Power Automate Premium Users_ action and update the Url with your respective license SKU (see table below).
 <kbd>![image](https://github.com/user-attachments/assets/6e77d652-c76e-4cc7-a1ac-e504b32fd142)</kbd>
 
-#### 6. Save the flow and voila! You've got an HTML formatted table ready that's ready for delivery via an email, Teams channel chat, or whatever! The table includes the Email and User Id values for any M365 accounts identified as being inactive. 
+#### 6. Save the flow and voila! You've got an HTML formatted table that's ready for delivery via an email, Teams channel chat, or whatever! The table includes the Email and User Id values for any M365 accounts identified as being inactive. 
 
 #### 7. The current version of the flow reports inactive Power _Automate_ premium licenses. Copy the flow and modify it with the following to create a version for reporting inactive Power _Apps_ premium licenses. 
 + Replace the _Get Active Power Automate Premium Users_ action Url with the following `https://licensing.powerplatform.microsoft.com/v1.0/tenants/[TENANT ID]/ManagedEnvironment/PowerApps/GetUslLicenseDetails`.
